@@ -26,3 +26,14 @@ account.display()
 account.deposit(2000)
 account.withdraw(1000)
 account.display()
+
+#output
+#----- Account Details -----
+#Account Holder : Tanvi
+#Current Balance: ₹ 5000
+#Deposited ₹ 2000
+#Withdrawn ₹ 1000
+
+#----- Account Details -----
+#Account Holder : Tanvi
+#Current Balance: ₹ 6000
