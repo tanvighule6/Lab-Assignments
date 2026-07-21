@@ -1,4 +1,4 @@
-def report_header(func):
+ def report_header(func):
     def wrapper(*args, **kwargs):
         print("=" * 35)
         print("        STUDENT REPORT")
@@ -43,3 +43,23 @@ Report.change_template("XYZ Institute of Technology")
 
 student2 = Report("Priya", 102, 35)
 student2.display_report()
+
+#output
+#===================================
+#        STUDENT REPORT
+#===================================
+#College : ABC Engineering College
+#Name : Rahul
+#Roll No : 101
+#Marks : 85
+#Result : PASS
+#===================================
+#===================================
+#        STUDENT REPORT
+#===================================
+#College : XYZ Institute of Technology
+#Name : Priya
+#Roll No : 102
+#Marks : 35
+#Result : FAIL
+#===================================
