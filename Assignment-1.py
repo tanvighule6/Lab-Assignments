@@ -109,3 +109,54 @@ while True:
 
     else:
         print("Invalid Choice! Please Try Again.")
+
+#output
+#===== Library Management System =====
+#1. Add Book
+#2. Register Patron
+#3. Display Books
+#4. Borrow Book
+#5. Return Book
+#6. Exit
+#Enter Your Choice: 1
+#Enter Book ID: 12345
+#Enter Book Title: ABC
+#Enter Author Name: XYZ
+#Book Added Successfully!
+
+
+#===== Library Management System =====
+#1. Add Book
+#2. Register Patron
+#3. Display Books
+#4. Borrow Book
+#5. Return Book
+#6. Exit
+#Enter Your Choice: 3
+
+#Book List
+#12345 ABC XYZ Available
+
+#===== Library Management System =====
+#1. Add Book
+#2. Register Patron
+#3. Display Books
+#4. Borrow Book
+#5. Return Book
+#6. Exit
+#Enter Your Choice: 4
+#Enter Book ID to Borrow: 12345
+#Book Borrowed Successfully!
+
+
+#===== Library Management System =====
+#1. Add Book
+#2. Register Patron
+#3. Display Books
+#4. Borrow Book
+#5. Return Book
+#6. Exit
+#Enter Your Choice: 3
+
+#Book List
+#12345 ABC XYZ Borrowed
